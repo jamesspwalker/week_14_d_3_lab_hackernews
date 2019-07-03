@@ -4,7 +4,9 @@ class NewsItem extends Component {
     render(){
         return(
             <li>
-                <p>{this.props.title}</p>
+                <p>
+                    <a href = {this.props.url}>{this.props.title}</a>
+                </p>
             </li>
         )
     }

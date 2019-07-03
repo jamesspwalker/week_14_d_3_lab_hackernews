@@ -14,7 +14,8 @@ const NewsList = (props) => {
                     <NewsItem
                         key={index}
                         title={story.title}
-                        
+                        url={story.url}
+                        type={story.type}
                     />
                 )
             })}
