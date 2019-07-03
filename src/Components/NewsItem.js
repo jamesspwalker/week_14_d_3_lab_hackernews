@@ -4,8 +4,11 @@ class NewsItem extends Component {
     render(){
         return(
             <li>
-                <p>
+                <h3>
                     <a href = {this.props.url}>{this.props.title}</a>
+                </h3>
+                <p>
+                    score: {this.props.score}
                 </p>
             </li>
         )
